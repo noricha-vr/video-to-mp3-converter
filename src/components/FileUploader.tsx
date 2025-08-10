@@ -255,7 +255,7 @@ export const FileUploader: React.FC<FileUploaderProps> = ({
 
         <div className="text-xs text-gray-400">
           <p>Supported formats: MP4, WebM, AVI, MOV, MKV, FLV, WMV</p>
-          <p>Maximum size: 500MB</p>
+          <p>No file size limit (Local use)</p>
         </div>
       </div>
     );

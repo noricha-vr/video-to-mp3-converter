@@ -35,9 +35,9 @@ export const FILE_EXTENSION_MAP: Record<string, SupportedVideoMimeTypes> = {
 };
 
 /**
- * 最大ファイルサイズ（500MB）
+ * 最大ファイルサイズ（制限なし - ローカル環境用）
  */
-export const MAX_FILE_SIZE = 500 * 1024 * 1024;
+export const MAX_FILE_SIZE = Infinity;
 
 /**
  * FFmpeg.wasm CDN設定
@@ -61,7 +61,7 @@ export const DEFAULT_MP3_CONFIG = {
  * エラーメッセージ
  */
 export const ERROR_MESSAGES = {
-  FILE_TOO_LARGE: `ファイルサイズが大きすぎます（最大${Math.round(MAX_FILE_SIZE / 1024 / 1024)}MB）`,
+  FILE_TOO_LARGE: 'ファイルサイズが大きすぎます',
   UNSUPPORTED_FORMAT: 'サポートされていないファイル形式です',
   FFMPEG_LOAD_FAILED: 'FFmpeg.wasmの読み込みに失敗しました',
   CONVERSION_FAILED: 'MP3変換に失敗しました',
