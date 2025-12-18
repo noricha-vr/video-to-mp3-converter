@@ -2,6 +2,7 @@
  * FFmpeg.wasm Web Worker
  * バックグラウンドでの動画→MP3変換処理
  * メインスレッドのブロッキングを防ぐ
+ * @version 2.0.0
  */
 
 import { FFmpeg } from '@ffmpeg/ffmpeg';
