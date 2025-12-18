@@ -92,6 +92,6 @@ export default defineConfig({
     exclude: ['@ffmpeg/ffmpeg', '@ffmpeg/util']
   },
   worker: {
-    format: 'es'
+    format: 'iife'
   }
 });
