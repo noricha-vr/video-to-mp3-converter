@@ -2,7 +2,8 @@
  * FFmpeg.wasm Web Worker
  * バックグラウンドでの動画→MP3変換処理
  * メインスレッドのブロッキングを防ぐ
- * @version 2.0.0
+ * @version 2.0.1
+ * @updated 2025-12-18 - Cache bust for COEP fix
  */
 
 import { FFmpeg } from '@ffmpeg/ffmpeg';
