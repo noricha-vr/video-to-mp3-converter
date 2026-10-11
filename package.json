@@ -11,7 +11,7 @@
     "type-check": "tsc --noEmit"
   },
   "devDependencies": {
-    "@playwright/test": "^1.63.0",
+    "@playwright/test": "^1.64.0",
     "@types/bun": "latest",
     "@vitejs/plugin-react": "^5.0.0",
     "autoprefixer": "^10.6.1",
