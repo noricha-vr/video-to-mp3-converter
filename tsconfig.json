@@ -2,6 +2,7 @@
   "compilerOptions": {
     // Environment setup & latest features
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "types": ["bun", "vite/client"],
     "target": "ESNext",
     "module": "ESNext",
     "moduleDetection": "force",
@@ -15,9 +16,8 @@
     "noEmit": true,
 
     // Path mapping for Vite
-    "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["./src/*"]
     },
 
     // Best practices
