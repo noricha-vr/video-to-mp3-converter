@@ -221,7 +221,7 @@ export const FileUploader: React.FC<FileUploaderProps> = ({
           <p className="text-sm font-medium">{state.errorMessage}</p>
           <button
             onClick={handleReset}
-            className="text-sm text-red-600 hover:text-red-700 underline focus:outline-none focus:ring-2 focus:ring-red-500 rounded"
+            className="text-sm text-red-600 hover:text-red-700 underline focus:outline-hidden focus:ring-2 focus:ring-red-500 rounded-sm"
           >
             Reset
           </button>
@@ -317,7 +317,7 @@ export const FileUploader: React.FC<FileUploaderProps> = ({
         <div className="flex gap-2">
           <button
             onClick={handleReset}
-            className="flex-1 py-2 px-4 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-500 transition-colors"
+            className="flex-1 py-2 px-4 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 focus:outline-hidden focus:ring-2 focus:ring-gray-500 transition-colors"
           >
             Choose Another File
           </button>
